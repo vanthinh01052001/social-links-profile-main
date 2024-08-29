@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Inter-regular";
+  src: url("./assets/fonts/static/Inter-Regular.ttf") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter-regular";
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  max-width: 350px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-size: cover;
+  align-items: center;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.card-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+.card-address {
+  font-size: 14px;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+}
+.slogan {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.social-btn {
+  font-family: "Inter-regular" !important;
+  background-color: hsl(0, 0%, 20%);
+  border: none;
+  border-radius: 4px;
+  padding: 12px 0px;
+  width: 100%;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.social-btn:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
